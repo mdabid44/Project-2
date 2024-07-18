@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  background-color: #3b5d4f;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: #fac227 !important;
+  color: black !important;
+}
+
+i .bi {
+  color: white;
+}
+
+.navbar {
+  color: white;
+}
+
+.navbar-nav a {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+.crousel {
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.crousel h2 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .crousel h2 {
+    font-size: 40px;
+  }
+}
+
+.crousel p {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.crousel-row {
+
+  justify-content: center;
+  text-align: left;
+
+}
+.shop-btn :nth-child(1) {
+  border: 1px solid #fac227;
+  background-color: #fac227;
+  border-radius: 25px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.shop-btn :nth-child(2) {
+  border: 1px solid #fac22782;
+  color: rgba(255, 255, 255, 0.712);
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+.hero :nth-child(3) {
+  /* border: 1px solid rgba(0, 0, 0, 0.872); */
+  background-color: rgba(0, 0, 0, 0.872);
+  border-radius: 25px;
+  color: rgba(255, 255, 255, 0.767);
+  padding: 5px 20px;
+  font-weight: 500;
+
+}
+
+.hero :nth-child(2) {
+  color: rgba(0, 0, 0, 0.671);
+
+}
+
+.hero :nth-child(1) {
+  color: rgba(0, 0, 0, 0.813);
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.hero {
+  justify-content: center;
+  padding-top: 0px;
+}
+.chair-card {
+  border-radius: 15px !important;
+}
+
+.chair-card img {
+  border-top-right-radius: 15px !important;
+  border-top-left-radius: 15px !important;
+}
+
+.icons>:nth-child(1) {
+  background-color: #3b5d4f8f;
+  border-radius: 50%;
+  padding: 3px 5px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.icons>:nth-child(2) {
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.783);
+  margin-top: 15px;
+}
+
+.choose-us {
+  line-height: 30px;
+}
+
+.choose-us .image-wrap::before {
+  content: "";
+  position: absolute;
+  background-image: url(images/dots-yellow.svg);
+  width: 255px;
+  height: 217px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translate(-40%, -40%);
+  z-index: -1;
+}
+
+.imgs-grid {
+  display: grid;
+
+  grid-template-columns: repeat(27, 1fr);
+  position: relative;
+}
+
+.imgs-grid .grid-1 {
+  grid-column: 1 / span 18;
+  grid-row: 1 / span 12;
+}
+
+.imgs-grid .grid-2 {
+  grid-column: 19 / span 27;
+  grid-row: 1 / span 5;
+  padding-left: 20px;
+}
+
+.imgs-grid .grid-3 {
+  grid-column: 14 / span 16;
+  grid-row: 6 / span 27;
+  padding-top: 20px;
+}
+
+.imgs-grid img {
+  border-radius: 29px;
+}
+
+.imgs-grid .grid-1::before {
+  position: absolute;
+  content: "";
+  background-image: url(images/dots-yellow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translate(-40%, -40%);
+  z-index: -1;
+  height: 255px;
+  width: 217px;
+}
+
+.design-tips li {
+  color: rgba(0, 0, 0, 0.836);
+  padding-bottom: 20px;
+}
+
+.design-tips .col .btn {
+  background-color: rgba(0, 0, 0, 0.872);
+  border-radius: 25px;
+  color: rgba(255, 255, 255, 0.833);
+  padding: 5px 20px;
+  font-weight: 500;
+}
+
+.interior-design {
+  padding-top: 90px;
+  line-height: 25px;
+}
+
+.back-img::after {
+  content: "";
+  position: absolute;
+  background-image: url(images/dots-light.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 255px;
+  height: 215px;
+  right: -100px;
+  transform: translate(-40%, -40%);
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    margin-top: 30px !important;
+  }
+}
+
+.chair {
+  line-height: normal;
+}
+
+.chair> :nth-child(1) {
+  font-weight: bolder !important;
+  font-size: px;
+}
+
+.chair> :nth-child(2) {
+  color: rgba(0, 0, 0, 0.658);
+}
+
+.chair> :nth-child(3) {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.701);
+}
